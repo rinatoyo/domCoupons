@@ -62,7 +62,13 @@ pandaDisc.innerHTML = 'Free T-shirt and fortune cookie with purchase!';
 
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
 
+let uni = document.getElementsByClassName('brand')[1];
+uni.innerHTML= 'Uniqlo';
+
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
+
+let uniPrice = document.getElementsByClassName('price')[1];
+uniPrice.innerHTML = '10,000';
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
