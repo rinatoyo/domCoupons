@@ -6,6 +6,7 @@
 
 var finePrint = 'Coupons VALID from Tuesday 12/4/2018 thru Saturday 6/29/2019. All sales FINAL. NO REFUNDS and EXCHANGES. And definitely NO RAINCHECKS! And ONLY POSITIVE reviews allowed on Social Media (FB, Instagram, Twitter, Yelp, etc.). And PLEASE Follow us on FB, Instagram, Twitter.'
 
+document.getElementById('disclaimer').innerHTML=finePrint;
 //2. Target the div elemenet with the id of 'brand1' and update the content to Nabisco.
 document.getElementById('brand1').innerHTML='Nabisco';
 
@@ -19,11 +20,23 @@ document.getElementById('price1').innerHTML='$8.99';
 
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
 
-document.getElementById('discount1')='Free fries with purchase!';
+// document.getElementById
+discount1.innerHTML='Free fries with purchase!';
 
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
 
+let itemTwo = document.createElement('div');
+let gin= document.createTextNode("Hendrick's Gin");
+itemTwo.appendChild(gin);
+document.getElementById('brand2').appendChild(itemTwo);
+
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
+
+itemTwo.id = 'hendricks';
+let priceTwo = document.createElement('div');
+let ginPrice = document.createTextNode('$34.99');
+priceTwo.appendChild(ginPrice);
+hendricks.appendChild(priceTwo);
 
 //8. Create a button element with the id of 'discount3' and give it a content of 50% OFF Axe body soap!. Append this element to the appropriate div class 'block3.
 
