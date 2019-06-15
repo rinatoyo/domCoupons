@@ -7,12 +7,19 @@
 var finePrint = 'Coupons VALID from Tuesday 12/4/2018 thru Saturday 6/29/2019. All sales FINAL. NO REFUNDS and EXCHANGES. And definitely NO RAINCHECKS! And ONLY POSITIVE reviews allowed on Social Media (FB, Instagram, Twitter, Yelp, etc.). And PLEASE Follow us on FB, Instagram, Twitter.'
 
 //2. Target the div elemenet with the id of 'brand1' and update the content to Nabisco.
+document.getElementById('brand1').innerHTML='Nabisco';
 
 //3. Target the div element with the id of 'item1' and update the content with Cheeseburger Oreos. 
 
+document.getElementById('item1').innerHTML='Cheeseburger Oreos';
+
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
 
+document.getElementById('price1').innerHTML='$8.99';
+
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
+
+document.getElementById('discount1')='Free fries with purchase!';
 
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
 
