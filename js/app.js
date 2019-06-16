@@ -72,11 +72,32 @@ uniPrice.innerHTML = '10,000';
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
+let brandDiv = document.createElement('div');
+brandDiv.className = 'brand';
+let itemBrand = document.getElementsByClassName('block3')[1];
+itemBrand.appendChild(brandDiv);
+brandDiv.innerHTML = 'Hifiman Shangri-La';
+
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
+
+let itemDiv = document.createElement('div');
+itemDiv.className = 'item';
+itemBrand.appendChild(itemDiv);
+itemDiv.innerHTML = 'Electronstatic Headphones';
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
 
+let itemPrice = document.createElement('div');
+itemPrice.className = 'price';
+itemBrand.appendChild(itemPrice);
+itemPrice.innerHTML = '$18,000';
+
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
+
+let itemDisc = document.createElement('button');
+itemDisc.className = 'discount';
+itemBrand.appendChild(itemDisc);
+itemDisc.innerHTML = 'Free Barry Manilow CD with purchase!';
 
 //17. For the Unicorn Slippers, change the contents for each element to the following: 
 //div.brand = H&M
