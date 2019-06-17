@@ -141,5 +141,17 @@ doriDisc.innerHTML = '33% OFF any 6 pack Budweiser or Bud Light';
 //div.price = Priceless
 // button.discount = No Discounts. This cutie is worth every penny!
 
+let pugBrand = document.getElementsByClassName('brand')[5];
+pugBrand.innerHTML = 'Any Dog Breeder';
+
+let pugItem = document.getElementsByClassName('item')[5];
+pugItem.innerHTML = 'Baby Puggy';
+
+let pugPrice = document.getElementsByClassName('price')[5];
+pugPrice.innerHTML = 'Priceless';
+
+let pugDisc = document.getElementsByClassName('discount')[5];
+pugDisc.innerHTML = 'No Discounts. This cutie is worth every penny!';
+
 //Final Boss 
 //Create your own product for the last three sections.
